@@ -1,38 +1,38 @@
-# num = 7
-# print(num)
-# # ######################
-# num = 3.14
-# print(num)
-# # ######################
-# num1 = 7
-# num2 = 3.14
-# Sum = num1 + num2
-# print(Sum)
-# # #####################
-# name = "Gal"
-# print(name)
-# # #####################
-# Name = input("Please enter a name: " )
-# print(Name)
-# # #####################
-# Number = int(input("Please enter a number: "))
-# print(Number)
-# print(type(Number)) 
-# # ######################
-# num1 = int(input("Please enter the first number: "))
-# num2 = int(input("Please enter the second number: "))
-# Sum = num1 + num2
-# print(Sum)
+num = 7
+print(num)
 # ######################
-# num1 = int(input("Please enter the first number: "))
-# num2 = int(input("Please enter the second number: "))
-# res = num1 > num2
-# print(res)
+num = 3.14
+print(num)
 # ######################
-# num1 = int(input("Please enter the first number: "))
-# num2 = int(input("Please enter the second number: "))
-# print(num1 + num2 if num1 < num2 else(num1 * num2 if num1 == num2 else num1 - num2))
-# # #######################
+num1 = 7
+num2 = 3.14
+Sum = num1 + num2
+print(Sum)
+# #####################
+name = "Gal"
+print(name)
+# #####################
+Name = input("Please enter a name: " )
+print(Name)
+# #####################
+Number = int(input("Please enter a number: "))
+print(Number)
+print(type(Number)) 
+# ######################
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+Sum = num1 + num2
+print(Sum)
+######################
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+res = num1 > num2
+print(res)
+######################
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+print(num1 + num2 if num1 < num2 else(num1 * num2 if num1 == num2 else num1 - num2))
+# #######################
 number1 = int(input("Enter your first number: "))
 number2 = int(input("Enter your second number: "))
 print("\n")
@@ -42,11 +42,17 @@ print("C A L C U L A T I O N S")
 print("\n")
 print("------------------------------")
 print("1. Addition")
+print("\n")
 print("2. Subtraction")
+print("\n")
 print("3. Multiplication")
+print("\n")
 print("4.  Division")
+print("\n")
 print("5. Floor Division")
+print("\n")
 print("6. Modulus")
+print("\n")
 print("7. Exponent")
 print("\n")
 print("------------------------------")
@@ -69,5 +75,7 @@ match choice:
         print(number1 % number2)
     case 7:
         print(number1^number2)
+    case _:
+            print("Error")
                            
                     
